@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏭 Supplier Performance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { display: flex; }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            background-color: #343a40;
+            padding: 20px;
+            color: white;
+        }
+        .sidebar a { color: white; text-decoration: none; display: block; padding: 10px; }
+        .sidebar a:hover { background-color: #495057; }
+        .content { margin-left: 270px; padding: 20px; width: 100%; }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>📊 Dashboard</h3>
+        <a href="/">🏠 Executive Summary</a>
+        <a href="/orders">📦 Order & Delivery</a>
+        <a href="/suppliers">🏭 Supplier Performance</a>
+        <a href="/inventory">📊 Inventory & Demand</a>
+        <a href="/transportation">🚚 Logistics Performance</a>
+        <a href="/costs">💰 Cost & Profitability</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1 class="text-center mb-4">🏭 Supplier Performance</h1>
+
+        <!-- Supplier Performance Table -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5>📊 Supplier Performance Table</h5>
+                {{ table_html | safe }}
+            </div>
+        </div>
+
+        <!-- Bar Chart: Lead Time Distribution -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5>📊 Supplier Lead Time Distribution</h5>
+                {{ plot_bar | safe }}
+            </div>
+        </div>
+
+        <!-- Scatter Plot: Quality vs. On-Time Delivery -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5>📈 Quality Rating vs. On-Time Delivery</h5>
+                {{ plot_scatter | safe }}
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

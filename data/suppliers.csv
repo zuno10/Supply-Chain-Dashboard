@@ -1,0 +1,51 @@
+supplier_id,supplier_name,lead_time_days,on_time_delivery_rate,quality_rating,defect_rate
+4030,Crawford Ltd,14,98.8,2.0,8.5
+4035,Schultz-Mack,15,81.5,2.4,9.5
+4003,Lawrence Inc,18,76.7,4.7,3.1
+4049,Sanchez-Baker,6,77.9,1.4,6.9
+4034,Bartlett Group,11,93.1,2.9,6.8
+4001,Jones Inc,5,73.3,4.0,3.6
+4026,"Brown, Gibson and Schmidt",30,89.3,4.7,4.4
+4042,"Miller, Holland and Miller",10,71.8,2.9,8.5
+4017,"Erickson, Sanford and Bishop",24,78.3,1.1,2.9
+4028,Graham LLC,15,84.5,2.7,6.6
+4039,"Vaughn, Savage and Weiss",18,82.0,2.0,8.2
+4026,Brown Ltd,13,92.5,3.9,9.6
+4047,Nelson-Solis,27,88.4,2.8,8.1
+4039,Hopkins and Sons,16,88.6,2.8,6.9
+4033,Lopez Ltd,25,93.4,1.0,8.5
+4022,Oliver-Barnett,17,70.8,4.5,5.0
+4044,"Dillon, Cox and Fischer",11,94.2,4.2,3.0
+4027,Chavez Group,26,80.0,2.7,4.0
+4045,"Garcia, Rivera and Moreno",9,94.6,1.3,7.6
+4048,"Barker, Cooper and Myers",13,89.3,4.4,1.9
+4035,"Huber, Carson and Davila",3,87.7,1.3,1.4
+4040,"Wood, Williams and Vaughan",2,71.0,4.9,2.3
+4028,Hernandez and Sons,3,89.3,3.1,3.7
+4046,Willis Group,11,71.6,3.4,4.8
+4024,Cardenas PLC,7,98.5,2.8,1.7
+4024,Brown-Henderson,7,75.9,1.7,4.0
+4031,Alexander-Chen,26,98.2,4.9,4.5
+4005,"Robinson, Miller and Pierce",10,94.4,1.6,6.6
+4030,"Gates, Hopkins and Harris",5,75.5,4.2,9.7
+4004,Smith-Townsend,10,94.4,2.5,7.9
+4023,"Ramos, Lewis and Johnson",15,93.4,4.5,7.9
+4019,Garcia-Cook,13,99.0,4.5,5.5
+4042,Lucas PLC,21,87.3,1.3,9.4
+4035,"Garcia, Rodriguez and Brock",9,77.5,1.1,5.5
+4047,"Rush, Stanley and Gould",23,72.3,3.0,4.4
+4011,Gregory and Sons,21,75.1,4.5,0.2
+4046,"Johnson, Potts and Matthews",27,72.8,3.0,6.1
+4029,Freeman Inc,20,86.8,3.2,5.3
+4012,Shaw Inc,15,82.5,1.5,7.4
+4026,"Perry, Stewart and Morris",19,85.6,1.6,3.1
+4007,"Clayton, Garner and Rodriguez",3,73.0,2.0,6.1
+4001,"Jackson, Rivera and Bruce",12,79.8,4.9,0.5
+4027,Clark and Sons,17,82.7,2.0,2.8
+4003,"Ray, Ramirez and Sherman",10,86.5,2.2,9.7
+4009,Tran Inc,24,99.3,1.5,8.6
+4045,"Andrews, Sanchez and Hines",23,92.2,3.4,1.3
+4020,Williams LLC,7,93.1,4.6,4.6
+4006,"Holmes, Contreras and Acevedo",29,80.2,1.5,5.3
+4024,Wilson Inc,22,86.7,2.6,3.7
+4012,Kelly-Wilson,2,72.5,4.8,7.6
