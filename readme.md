@@ -24,7 +24,7 @@ It helps **business owners** make data-driven decisions by providing **visual in
 ## 📦 Installation  
 1️⃣ **Clone the repository:**  
    ```bash
-   git clone https://github.com/YOUR-USERNAME/your-repo-name.git
+   git clone https://github.com/zuno10/Supply-Chain-Dashboard
    cd your-repo-name
 ```
 2️⃣ **Install dependencies:**
